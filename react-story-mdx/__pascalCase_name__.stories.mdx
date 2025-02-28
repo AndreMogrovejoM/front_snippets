@@ -1,0 +1,41 @@
+import { ArgsTable, Canvas, Description } from "@storybook/addon-docs";
+import { Meta, Story } from "@storybook/addon-docs";
+
+import {{ pascalCase name }} from "./{{ pascalCase name }}";
+import { {{ pascalCase name }}StoriesStyles as StoriesStyles } from "./{{ pascalCase name }}.stories.styles";
+
+<Meta
+  title="{{ pascalCase name }}"
+  component={ {{ pascalCase name }} }
+  decorators={[
+    Story => (
+      <StoriesStyles>
+        <Story />
+      </StoriesStyles>
+    )
+  ]}
+/>
+
+# {{ pascalCase name }}
+
+<Description of={ {{ pascalCase name }} } />
+
+### Props
+
+<ArgsTable of={ {{ pascalCase name }} } />
+
+### Simple {{ pascalCase name }}
+
+<Story name="Simple {{ pascalCase name }}">
+  <{{ pascalCase name }} className="Story" />
+</Story>
+
+### {{ pascalCase name }} Playground
+
+export const Template = args => <{{ pascalCase name }} {...args} />;
+
+<Canvas>
+  <Story name="Playground" args={ { className: "Story" } }>
+    {Template.bind({})}
+  </Story>
+</Canvas>

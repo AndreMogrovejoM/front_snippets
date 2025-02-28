@@ -1,0 +1,4 @@
+{
+  "suffixesToIgnoreInInput": ["Container"],
+  "createFilesInFolderWithPattern": "__pascalCase_name__Container"
+}
