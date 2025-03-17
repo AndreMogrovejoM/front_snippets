@@ -11,6 +11,4 @@ const {{pascalCase name}}Placeholder: React.FC<Props> = (props) => {
   )
 };
 
-{{pascalCase name}}Placeholder.defaultProps = {};
-
 export default {{pascalCase name}}Placeholder;

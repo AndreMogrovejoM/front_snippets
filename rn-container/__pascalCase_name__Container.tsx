@@ -6,6 +6,4 @@ const {{pascalCase name}}Container: React.FC<Props> = (props) => {
   return <{{pascalCase name}} />;
 };
 
-{{pascalCase name}}Container.defaultProps = {};
-
 export default {{pascalCase name}}Container;

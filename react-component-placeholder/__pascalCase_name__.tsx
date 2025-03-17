@@ -11,6 +11,4 @@ const {{pascalCase name}}: React.FC<Props> = (props) => {
   )
 };
 
-{{pascalCase name}}.defaultProps = {};
-
 export default {{pascalCase name}};

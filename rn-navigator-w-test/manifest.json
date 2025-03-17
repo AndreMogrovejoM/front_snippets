@@ -1,0 +1,4 @@
+{
+  "suffixesToIgnoreInInput": ["Navigator"],
+  "createFilesInFolderWithPattern": "__pascalCase_name__Navigator"
+}
