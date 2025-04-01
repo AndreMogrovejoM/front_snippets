@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-import styles from "./{{pascalCase name}}.styles";
-import { {{ pascalCase name }}Props as Props } from "./{{pascalCase name}}.types";
+import styles from "./styles";
+import { {{ pascalCase name }}Props as Props } from "./types";
 
 const {{pascalCase name}}: React.FC<Props> = (props) => {
   return (
